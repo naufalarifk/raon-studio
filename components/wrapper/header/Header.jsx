@@ -2,9 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import RaonLogo from '../../../public/logos/Raon.png'
 import { useRouter } from "next/router";
-import {GiHamburgerMenu} from "react-icons/gi"
-
-
 function Header() {
     const router = useRouter()
   return (
@@ -20,12 +17,9 @@ function Header() {
         <li><Link href="/blog"><a className={router.pathname == "/blog" ? "text-amber-400": "text-[#424242]"}>BLOG</a></Link></li>
         <li><Link href="/contact"><a className={router.pathname == "/contact" ? "text-amber-400": "text-[#424242]"}>CONTACT</a></Link></li>
       </ul>
-      <div>
         <div className="bg-[#EE7526] lg:block hidden rounded-full py-2 px-8">
             <p className="font-bold text-white">BEST OFFER</p>
         </div>
-        <button className="lg:hidden block"><GiHamburgerMenu/></button>
-      </div>
     </header>
   );
 }

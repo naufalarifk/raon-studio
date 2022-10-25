@@ -5,7 +5,7 @@ function Works() {
     <>
     <Head>
     <title>Raon Studio</title>
-    <link rel="icon" href="/logos/Logo.png"/>
+    <link rel="icon" href="/logos/raon-logo.png"/>
   </Head>
     <Wrapper>
         <div>Works</div>

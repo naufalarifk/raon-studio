@@ -2,14 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import RaonLogo from '../../../public/logos/Raon.png'
 import { useRouter } from "next/router";
+import MobileMenu from "../../mobile/menu";
 function Header() {
     const router = useRouter()
   return (
-    <header className="flex flex-row justify-between py-6 px-12">
+    <header className="flex flex-row justify-between py-6 px-12 max-w-7xl">
         <div className="items-center">
       <Image src={RaonLogo} height={32} width={64} alt="" />
       </div>
-      <ul className="lg:flex hidden flex-row justify-evenly space-x-6 text-[#424242] items-center font-bold">
+      <ul className="lg:flex hidden flex-row justify-evenly space-x-6 text-[#424242] text-base items-center font-semibold">
         <li><Link href="/"><a className={router.pathname == "/" ? "text-amber-400": "text-[#424242]"}>HOME</a></Link></li>
         <li><Link href="/works"><a className={router.pathname == "/works" ? "text-amber-400": "text-[#424242]"}>WORKS</a></Link></li>
         <li><Link href="/services"><a className={router.pathname == "/services" ? "text-amber-400": "text-[#424242]"}>SERVICES</a></Link></li>
@@ -19,6 +20,9 @@ function Header() {
       </ul>
         <div className="bg-[#EE7526] lg:block hidden rounded-full py-2 px-8">
             <p className="font-bold text-white">BEST OFFER</p>
+        </div>
+        <div className="lg:hidden">
+        <MobileMenu/>
         </div>
     </header>
   );

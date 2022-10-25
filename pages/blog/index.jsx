@@ -6,7 +6,7 @@ function index() {
     <>
       <Head>
         <title>Raon Studio</title>
-        <link rel="icon" href="/logos/Logo.png" />
+        <link rel="icon" href="/logos/raon-logo.png" />
       </Head>
       <Wrapper>
         <p>Blog</p>

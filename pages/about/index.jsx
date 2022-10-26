@@ -7,6 +7,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
+import Image from "next/image";
 
 function About() {
   const [expanded, setExpanded] = useState(false);
@@ -21,18 +22,32 @@ function About() {
         <link rel="icon" href="/logos/raon-logo.png" />
       </Head>
       <Wrapper>
-        <section className="space-y-12 flex flex-col">
-          <h1 className="font-bold text-center text-4xl w-1/2 mx-auto">
-            Crafting The Idea Into Visual, We Believe a Good Visual is a Good
-            Business
-          </h1>
-          <p className="text-gray-600 text-center w-1/2 mx-auto">
-            Our mission is becoming the first choice graphic design and
-            illustration company{" "}
-          </p>
-          <button className="bg-[#EE7526] rounded-full px-4 py-2 text-white font-semibold mx-auto">
-            BOOK A SERVICE
-          </button>
+      <section className="flex lg:flex-row flex-col-reverse justify-center mt-12 gap-y-10 max-w-7xl">
+          <div className="lg:w-1/2 w-full lg:space-y-12 space-y-8">
+            <h1 className="lg:text-4xl text-xl font-extrabold w-full lg:w-3/4 text-center lg:text-left lg:p-0 p-2">
+              Raon Studio does illustration works with heart. We produce only
+              top-quality works.
+            </h1>
+            <p className="text-gray-600 lg:text-left text-center">
+              Our mission is becoming the first choice <br /> graphic design and
+              illustration company{" "}
+            </p>
+            <div className="lg:w-3/4 w-full flex lg:justify-start justify-center space-x-6">
+              <button className="bg-[#EE7526] text-white lg:py-4 lg:px-10 py-3 px-4 rounded-full">
+                SEE OUR WORKS
+              </button>
+              <button className="border border-[#EE7526] text-[#EE7526] rounded-full lg:py-4 lg:px-10 py-3 px-4 font-bold">
+                GET IN TOUCH
+              </button>
+            </div>
+          </div>
+          <Image
+            height={350}
+            width={400}
+            src="/static/about/about-1.png"
+            alt=""
+            priority
+          />
         </section>
         <section className="my-12 py-4 space-y-4">
           <h1 className="text-[#EE7526] text-center">RAON STUDIO</h1>

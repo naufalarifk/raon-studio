@@ -35,6 +35,7 @@ export default function Home() {
             width={263}
             src="/static/home/home-1.png"
             alt=""
+            priority
           />
         </section>
         <section className="mt-12 max-w-7xl">

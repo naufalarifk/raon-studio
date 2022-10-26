@@ -15,10 +15,10 @@ function Footer() {
       </section>
       <hr className="w-4/5 mx-auto"/>
       <section  className="flex flex-row justify-around w-4/5 mx-auto">
-    <div className="w-1/2">
+    <div className="w-1/2 space-y-4">
         <h1 className="font-bold">About <br/> Raon Studio</h1>
         <p className="">We are illustration company who have NFT Art, mascot and cartoon character, t-shirt and merch, and anime illustration services. We also do graphic and presentation design for life.</p>
-        <ul className="flex flex-row gap-x-4">
+        <ul className="flex flex-row gap-x-3">
             <li><TwitterIcon/></li>
             <li><FacebookIcon/></li>
             <li><InstagramIcon/></li>

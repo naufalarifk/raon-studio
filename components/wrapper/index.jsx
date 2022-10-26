@@ -1,3 +1,4 @@
+import Footer from "./footer/Footer"
 import Header from "./header/Header"
 
 const Wrapper = ({children}) => {
@@ -5,6 +6,7 @@ const Wrapper = ({children}) => {
     <>
     <Header/>
     {children}
+    <Footer/>
     </>
   )
 }

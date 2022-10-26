@@ -2,6 +2,7 @@ import Head from "next/head";
 import Wrapper from "../components/wrapper";
 import Image from "next/image";
 import ReactStars from "react-rating-stars-component";
+import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 export default function Home() {
   return (
     <>
@@ -10,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/logos/raon-logo.png" />
       </Head>
       <Wrapper>
-        <section className="flex lg:flex-row flex-col-reverse justify-center mt-12 gap-y-10">
+        <section className="flex lg:flex-row flex-col-reverse justify-center mt-12 gap-y-10 max-w-7xl">
           <div className="lg:w-1/2 w-full lg:space-y-12 space-y-8">
             <h1 className="lg:text-4xl text-xl font-extrabold w-full lg:w-3/4 text-center lg:text-left lg:p-0 p-2">
               Raon Studio does illustration works with heart. We produce only
@@ -36,7 +37,7 @@ export default function Home() {
             alt=""
           />
         </section>
-        <section className="mt-12">
+        <section className="mt-12 max-w-7xl">
           <div className="text-center space-y-4">
             <h1 className="font-bold text-4xl">What We Are Crafting</h1>
             <p className="text-gray-600 px-10">
@@ -140,7 +141,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        <section className="max-w-7xl">
           <h1 className="font-bold text-4xl text-center">See Our Works</h1>
           <div className="w-full lg:w-3/4 grid grid-cols-4 gap-y-1 -gap-x-10 mx-auto p-16 lg:p-16">
             <div className="h-[200px] w-[200px] bg-gray-300" />
@@ -157,7 +158,7 @@ export default function Home() {
             <div className="h-[200px] w-[200px] bg-gray-300" />
           </div>
         </section>
-        <section className="flex items-center flex-col space-y-4">
+        <section className="max-w-7xl flex items-center flex-col space-y-4">
           <p className="">Here are some of our best clients</p>
           <div className="grid grid-cols-3 lg:grid-cols-5 gap-4">
             <div className="font-bold text-lg justify-evenly flex row gap-2">
@@ -182,7 +183,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="mt-20">
+        <section className="max-w-7xl mt-20">
           <h1 className="text-4xl font-bold text-center">
             Our Happy CLients Say About Us
           </h1>
@@ -263,6 +264,52 @@ export default function Home() {
                   <p className="text-gray-600">Entrepreneur</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className="max-w-7xl flex flex-row justify-center mt-24 gap-x-4">
+          <div className="w-1/2 flex justify-end">
+            <Image
+              src="/static/home/home-2.png"
+              height={350}
+              width={350}
+              alt=""
+            />
+          </div>
+          <div className="w-1/2 space-y-8">
+            <h1 className="text-4xl font-bold w-1/2">
+              Pandemic is Reshaping How People Work
+            </h1>
+            <p className="w-3/4">
+              Raon Studio was built when the pandemic is coming. It turns 3 now!
+              I know the pandemic is reshaping the way people work and it’s
+              totally reshaping me. I started freelancing on 2019 and build my
+              own studio on 2020 and currently working with 10+ team members
+            </p>
+            <button>
+              Know More <ArrowRightAltIcon />
+            </button>
+          </div>
+        </section>
+        <section className="max-w-7xl mt-24">
+          <h1 className="font-bold text-3xl text-center">
+            See Some of Interesting Numbers
+          </h1>
+          <p className="text-gray-600 text-center">
+            The numbers shows how we interacting with our clients
+          </p>
+          <div className="grid grid-cols-3 my-12">
+            <div className="flex flex-col mx-auto justify-center text-center">
+              <h1 className="font-bold text-[#EE7526] text-4xl">40+</h1>
+              <p>Happy Clients</p>
+            </div>
+            <div className="flex flex-col mx-auto justify-center text-center">
+              <h1 className="font-bold text-[#EE7526] text-4xl">90%</h1>
+              <p>Returning Clients</p>
+            </div>
+            <div className="flex flex-col mx-auto justify-center text-center">
+              <h1 className="font-bold text-[#EE7526] text-4xl">40+</h1>
+              <p>Years of Experience</p>
             </div>
           </div>
         </section>

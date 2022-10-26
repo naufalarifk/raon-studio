@@ -6,3 +6,11 @@
 *{
     font-family: 'Sora', sans-serif;
 }
+
+input[placeholder] {
+    text-align: center;
+}
+
+section{
+    max-width: 80rem/* 1280px */;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import Wrapper from "../../components/wrapper";
 import Head from "next/head";
-function index() {
+function Blog() {
   return (
     <>
       <Head>
@@ -15,4 +15,4 @@ function index() {
   );
 }
 
-export default index;
+export default Blog;

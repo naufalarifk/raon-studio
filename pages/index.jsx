@@ -52,13 +52,14 @@ export default function Home() {
                   src="/static/home/headphones-3 1.png"
                   height={64}
                   width={64}
+                  alt=''
                 />
               </div>
               <h1 className="text-lg font-bold">NFT Art Illustration</h1>
               <p>
-                Bored Ape NFT becoming a trend in recent days. We’ve been
+                Bored Ape NFT becoming a trend in recent days. We&apos;ve been
                 working with NFT creators for the past 2 years and this is
-                something that we’re good at.
+                something that we&apos;re good at.
               </p>
             </div>
             <div className="border-b border-gray-300 p-8 space-y-4 flex flex-col">
@@ -67,13 +68,14 @@ export default function Home() {
                   src="/static/home/chart-bar-33 1.png"
                   height={64}
                   width={64}
+                  alt=''
                 />
               </div>
               <h1 className="text-lg font-bold">NFT Art Illustration</h1>
               <p>
-                Bored Ape NFT becoming a trend in recent days. We’ve been
+                Bored Ape NFT becoming a trend in recent days. We&apos;ve been
                 working with NFT creators for the past 2 years and this is
-                something that we’re good at.
+                something that we&apos;re good at.
               </p>
             </div>
             <div className="border-b lg:border-l border-gray-300 p-8 space-y-4 flex flex-col">
@@ -82,6 +84,7 @@ export default function Home() {
                   src="/static/home/board-2 1.png"
                   height={64}
                   width={64}
+                  alt=''
                 />
               </div>
               <h1 className="text-lg font-bold">
@@ -99,6 +102,7 @@ export default function Home() {
                   src="/static/home/archive-content 1.png"
                   height={64}
                   width={64}
+                  alt=''
                 />
               </div>
               <h1 className="text-lg font-bold">Anime Illustration</h1>
@@ -114,13 +118,14 @@ export default function Home() {
                   src="/static/home/folder-favorite 1.png"
                   height={64}
                   width={64}
+                  alt=''
                 />
               </div>
               <h1 className="text-lg font-bold">
                 Banner, Brochure, and User Interface Design
               </h1>
               <p>
-                Designing things can be very difficult for some people, we’re
+                Designing things can be very difficult for some people, we&apos;re
                 helping with graphic design works for your needs
               </p>
             </div>
@@ -130,6 +135,7 @@ export default function Home() {
                   src="/static/home/chart-3 1.png"
                   height={64}
                   width={64}
+                  alt=''
                 />
               </div>
               <h1 className="text-lg font-bold">
@@ -163,23 +169,23 @@ export default function Home() {
           <p className="">Here are some of our best clients</p>
           <div className="grid grid-cols-3 lg:grid-cols-5 gap-4">
             <div className="font-bold text-lg justify-evenly flex row gap-2">
-              <Image src="/static/home/layers.png" height={32} width={32} />
+              <Image alt='' src="/static/home/layers.png" height={32} width={32} />
               Layers
             </div>
             <div className="font-bold text-lg justify-evenly flex row gap-2">
-              <Image src="/static/home/sisyphus.png" height={32} width={32} />
+              <Image alt='' src="/static/home/sisyphus.png" height={32} width={32} />
               Sisyphus
             </div>{" "}
             <div className="font-bold text-lg justify-evenly flex row gap-2">
-              <Image src="/static/home/circooles.png" height={32} width={32} />
+              <Image alt='' src="/static/home/circooles.png" height={32} width={32} />
               Circooles
             </div>{" "}
             <div className="font-bold text-lg justify-evenly flex row gap-2">
-              <Image src="/static/home/catalog.png" height={32} width={32} />
+              <Image alt='' src="/static/home/catalog.png" height={32} width={32} />
               Catalog
             </div>{" "}
             <div className="font-bold text-lg justify-evenly flex row gap-2">
-              <Image src="/static/home/quotient.png" height={32} width={32} />
+              <Image alt='' src="/static/home/quotient.png" height={32} width={32} />
               Quotient
             </div>
           </div>
@@ -283,7 +289,7 @@ export default function Home() {
             </h1>
             <p className="w-3/4">
               Raon Studio was built when the pandemic is coming. It turns 3 now!
-              I know the pandemic is reshaping the way people work and it’s
+              I know the pandemic is reshaping the way people work and it&apos;s
               totally reshaping me. I started freelancing on 2019 and build my
               own studio on 2020 and currently working with 10+ team members
             </p>

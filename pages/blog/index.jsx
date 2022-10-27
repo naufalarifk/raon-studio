@@ -120,7 +120,7 @@ function Blog() {
             {blogDummies.map((item)=> 
             <div className="px-8 py-4 shadow-2xl flex flex-col" key={item.id}>
               <div className="mx-auto">
-              <Image src={item.src} width={300} height={300} priority={item.id < 4 ? true : false }/>
+              <Image alt="" src={item.src} width={300} height={300} priority={item.id < 4 ? true : false }/>
               </div>
               <div>
                 <h1 className="text-[#6941C6]">{item.category}</h1>

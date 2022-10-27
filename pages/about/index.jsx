@@ -322,7 +322,7 @@ function About() {
           </div>
           <div className="flex flex-col space-y-8 my-12">
             <h1 className="text-center font-semibold text-xl">Still have questions?</h1>
-            <p className="text-center text-gray-500">Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
+            <p className="text-center text-gray-500">Can&apos;t find the answer you&apos;re looking for? Please chat to our friendly team.</p>
             <button className="bg-[#EE7526] mx-auto rounded-full px-4 py-2 text-white">Contact Us</button>
           </div>
         </section>

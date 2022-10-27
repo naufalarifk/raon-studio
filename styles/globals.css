@@ -7,8 +7,14 @@
     font-family: 'Sora', sans-serif;
 }
 
-input[placeholder] {
+
+.input-middle[placeholder] {
+
     text-align: center;
+}
+
+input[type="text"], input[type="password"], textarea, select { 
+    outline: none;
 }
 
 section{

@@ -9,7 +9,7 @@ function Footer() {
       <section className="flex flex-row justify-between w-4/5 mx-auto">
         <h1 className="font-bold text-2xl">Contact Us to Start <br/> Visualize Your Idea</h1>
         <form className="flex flex-row space-x-2 my-2">
-            <input placeholder="enter your email here" className="rounded-full border-2 border-[#EE7526] focus:border-[#EE7526] px-2 py-1" />
+            <input type='text' placeholder="enter your email here" className="rounded-full border-2 border-[#EE7526] focus:border-[#EE7526] px-2 py-1 input-middle" />
             <button className="bg-[#EE7526] rounded-full px-3 py-1 text-white">Contact Us</button>
         </form>
       </section>
@@ -25,7 +25,7 @@ function Footer() {
             <li><GitHubIcon/></li>
         </ul>
     </div>
-    <div className="flex flex-row justify-evenly   w-1/2">
+    <div className="flex flex-row justify-evenly w-1/2">
     <ul>
         <p className="font-bold">Company</p>
         <li>About</li>

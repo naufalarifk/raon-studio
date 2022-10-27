@@ -143,7 +143,7 @@ function About() {
                 id="panel1a-header"
               >
                 <p className="font-bold">
-                WILL YOU REFUND MY MONEY IF I DON'T LIKE YOUR WORK?
+                WILL YOU REFUND MY MONEY IF I DON&apos;T LIKE YOUR WORK?
                 </p>
               </AccordionSummary>
               <AccordionDetails>
@@ -303,7 +303,7 @@ function About() {
                 id="panel1a-header"
               >
                 <p className="font-bold">
-                I CAN'T AFFORD YOUR SERVICES... CAN YOU OFFER ME MORE AFFORDABLE SOLUTIONS?
+                I CAN&apos;T AFFORD YOUR SERVICES... CAN YOU OFFER ME MORE AFFORDABLE SOLUTIONS?
                 </p>
               </AccordionSummary>
               <AccordionDetails>

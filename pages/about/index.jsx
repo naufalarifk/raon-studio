@@ -54,7 +54,7 @@ function About() {
           <p className="text-center font-bold text-4xl">
             Why Clients Loves <br /> Working With Us
           </p>
-          <div className="grid grid-cols-2 gap-4 w-3/4 mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-3/4 mx-auto">
             <div className="flex flex-row rounded-lg border border-gray-300 p-8">
               <CheckCircleIcon className="text-blue-600" />
               <p>
@@ -90,7 +90,7 @@ function About() {
             <h1 className="text-center text-4xl font-bold">
               Frequently Asked Questions
             </h1>
-            <p className="text-center text-gray-600">
+            <p className="text-center text-gray-600 w-3/4 mx-auto">
               Everything you need to know about the service and products.
             </p>
           </div>
@@ -116,14 +116,14 @@ function About() {
               </AccordionSummary>
               <AccordionDetails>
                 <p className="w-4/5 text-gray-500">
-                  I offer a premium custom design service and I guarantee full
+                  {`I offer a premium custom design service and I guarantee full
                   satisfaction. Revisions will be the necessary in order to
                   achieve the objective set. <br /> My design process is
                   sequential so we’ll do the work in stages – briefing,
                   conceptualisation, sketch and final design – and we’ll make
                   all the revisions you need (within reason) but when one stage
                   is approved we can’t turn back again. If it happens I may
-                  charge a fee.
+                  charge a fee.`}
                 </p>
               </AccordionDetails>
             </Accordion>{" "}
@@ -148,14 +148,14 @@ function About() {
               </AccordionSummary>
               <AccordionDetails>
                 <p className="w-4/5 text-gray-500">
-                  I offer a premium custom design service and I guarantee full
+                  {`I offer a premium custom design service and I guarantee full
                   satisfaction. Revisions will be the necessary in order to
                   achieve the objective set. <br /> My design process is
                   sequential so we’ll do the work in stages – briefing,
                   conceptualisation, sketch and final design – and we’ll make
                   all the revisions you need (within reason) but when one stage
                   is approved we can’t turn back again. If it happens I may
-                  charge a fee.
+                  charge a fee.`}
                 </p>
               </AccordionDetails>
             </Accordion>{" "}
@@ -180,14 +180,14 @@ function About() {
               </AccordionSummary>
               <AccordionDetails>
                 <p className="w-4/5 text-gray-500">
-                  I offer a premium custom design service and I guarantee full
+                  {`I offer a premium custom design service and I guarantee full
                   satisfaction. Revisions will be the necessary in order to
                   achieve the objective set. <br /> My design process is
                   sequential so we’ll do the work in stages – briefing,
                   conceptualisation, sketch and final design – and we’ll make
                   all the revisions you need (within reason) but when one stage
                   is approved we can’t turn back again. If it happens I may
-                  charge a fee.
+                  charge a fee.`}
                 </p>
               </AccordionDetails>
             </Accordion>{" "}
@@ -212,14 +212,14 @@ function About() {
               </AccordionSummary>
               <AccordionDetails>
                 <p className="w-4/5 text-gray-500">
-                  I offer a premium custom design service and I guarantee full
+                  {`I offer a premium custom design service and I guarantee full
                   satisfaction. Revisions will be the necessary in order to
                   achieve the objective set. <br /> My design process is
                   sequential so we’ll do the work in stages – briefing,
                   conceptualisation, sketch and final design – and we’ll make
                   all the revisions you need (within reason) but when one stage
                   is approved we can’t turn back again. If it happens I may
-                  charge a fee.
+                  charge a fee.`}
                 </p>
               </AccordionDetails>
             </Accordion>{" "}
@@ -244,14 +244,14 @@ function About() {
               </AccordionSummary>
               <AccordionDetails>
                 <p className="w-4/5 text-gray-500">
-                  I offer a premium custom design service and I guarantee full
+                  {`I offer a premium custom design service and I guarantee full
                   satisfaction. Revisions will be the necessary in order to
                   achieve the objective set. <br /> My design process is
                   sequential so we’ll do the work in stages – briefing,
                   conceptualisation, sketch and final design – and we’ll make
                   all the revisions you need (within reason) but when one stage
                   is approved we can’t turn back again. If it happens I may
-                  charge a fee.
+                  charge a fee.`}
                 </p>
               </AccordionDetails>
             </Accordion>{" "}
@@ -276,14 +276,14 @@ function About() {
               </AccordionSummary>
               <AccordionDetails>
                 <p className="w-4/5 text-gray-500">
-                  I offer a premium custom design service and I guarantee full
+                  {`I offer a premium custom design service and I guarantee full
                   satisfaction. Revisions will be the necessary in order to
                   achieve the objective set. <br /> My design process is
                   sequential so we’ll do the work in stages – briefing,
                   conceptualisation, sketch and final design – and we’ll make
                   all the revisions you need (within reason) but when one stage
                   is approved we can’t turn back again. If it happens I may
-                  charge a fee.
+                  charge a fee.`}
                 </p>
               </AccordionDetails>
             </Accordion>
@@ -308,14 +308,14 @@ function About() {
               </AccordionSummary>
               <AccordionDetails>
                 <p className="w-4/5 text-gray-500">
-                  I offer a premium custom design service and I guarantee full
+                  {`I offer a premium custom design service and I guarantee full
                   satisfaction. Revisions will be the necessary in order to
                   achieve the objective set. <br /> My design process is
                   sequential so we’ll do the work in stages – briefing,
                   conceptualisation, sketch and final design – and we’ll make
                   all the revisions you need (within reason) but when one stage
                   is approved we can’t turn back again. If it happens I may
-                  charge a fee.
+                  charge a fee.`}
                 </p>
               </AccordionDetails>
             </Accordion>

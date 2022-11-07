@@ -150,19 +150,19 @@ export default function Home() {
         </section>
         <section className="max-w-7xl">
           <h1 className="font-bold text-4xl text-center">See Our Works</h1>
-          <div className="w-full lg:w-3/4 grid grid-cols-4 gap-y-1 -gap-x-10 mx-auto p-16 lg:p-16">
-            <div className="h-[200px] w-[200px] bg-gray-300" />
-            <div className="h-[200px] w-[200px] bg-gray-300" />
-            <div className="h-[200px] w-[200px] bg-gray-300" />
-            <div className="h-[200px] w-[200px] bg-gray-300" />
-            <div className="h-[200px] w-[200px] bg-gray-300" />
-            <div className="h-[200px] w-[200px] bg-gray-300" />
-            <div className="h-[200px] w-[200px] bg-gray-300" />
-            <div className="h-[200px] w-[200px] bg-gray-300" />
-            <div className="h-[200px] w-[200px] bg-gray-300" />
-            <div className="h-[200px] w-[200px] bg-gray-300" />
-            <div className="h-[200px] w-[200px] bg-gray-300" />
-            <div className="h-[200px] w-[200px] bg-gray-300" />
+          <div className="w-full lg:w-3/4 grid grid-cols-2 lg:grid-cols-4 gap-y-1 -gap-x-10 mx-auto p-4 lg:p-16">
+            <div className="h-[164px] w-[164px] lg:h-[200px] lg:w-[200px] bg-gray-300" />
+            <div className="h-[164px] w-[164px] lg:h-[200px] lg:w-[200px] bg-gray-300" />
+            <div className="h-[164px] w-[164px] lg:h-[200px] lg:w-[200px] bg-gray-300" />
+            <div className="h-[164px] w-[164px] lg:h-[200px] lg:w-[200px] bg-gray-300" />
+            <div className="h-[164px] w-[164px] lg:h-[200px] lg:w-[200px] bg-gray-300" />
+            <div className="h-[164px] w-[164px] lg:h-[200px] lg:w-[200px] bg-gray-300" />
+            <div className="h-[164px] w-[164px] lg:h-[200px] lg:w-[200px] bg-gray-300" />
+            <div className="h-[164px] w-[164px] lg:h-[200px] lg:w-[200px] bg-gray-300" />
+            <div className="h-[164px] w-[164px] lg:h-[200px] lg:w-[200px] bg-gray-300" />
+            <div className="h-[164px] w-[164px] lg:h-[200px] lg:w-[200px] bg-gray-300" />
+            <div className="h-[164px] w-[164px] lg:h-[200px] lg:w-[200px] bg-gray-300" />
+            <div className="h-[164px] w-[164px] lg:h-[200px] lg:w-[200px] bg-gray-300" />
           </div>
         </section>
         <section className="max-w-7xl flex items-center flex-col space-y-4">
@@ -274,8 +274,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="max-w-7xl flex flex-row justify-center mt-24 gap-x-4">
-          <div className="w-1/2 flex justify-end">
+        <section className="max-w-7xl flex flex-col items-center text-center lg:text-left lg:flex-row justify-center mt-24 gap-x-4">
+          <div className="w-full lg:w-1/2 flex justify-end">
             <Image
               src="/static/home/home-2.png"
               height={350}
@@ -283,11 +283,11 @@ export default function Home() {
               alt=""
             />
           </div>
-          <div className="w-1/2 space-y-8">
-            <h1 className="text-4xl font-bold w-1/2">
+          <div className="w-full lg:w-1/2 space-y-8 mx-auto">
+            <h1 className="text-4xl font-bold w-full lg:w-1/2">
               Pandemic is Reshaping How People Work
             </h1>
-            <p className="w-3/4">
+            <p className="w-full lg:w-3/4">
               Raon Studio was built when the pandemic is coming. It turns 3 now!
               I know the pandemic is reshaping the way people work and it&apos;s
               totally reshaping me. I started freelancing on 2019 and build my

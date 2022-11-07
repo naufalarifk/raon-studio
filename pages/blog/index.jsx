@@ -102,7 +102,7 @@ function Blog() {
           <h1 className="text-4xl font-bold text-center">
             Resources and Insights
           </h1>
-          <p className="text-center text-gray-500">
+          <p className="text-center text-gray-500 w-3/4 mx-auto">
             The latest insight about art, illustration, and design for your
             daily brain breakfast
           </p>
@@ -116,11 +116,11 @@ function Blog() {
               className="focus:border-none w-full"
             />
           </div>
-          <div className="grid grid-cols-3 gap-x-4 gap-y-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-4 gap-y-8 w-3/4 mx-auto">
             {blogDummies.map((item)=> 
             <div className="px-8 py-4 shadow-2xl flex flex-col" key={item.id}>
               <div className="mx-auto">
-              <Image alt="" src={item.src} width={300} height={300} priority={item.id < 4 ? true : false }/>
+              <Image alt="" src={item.src} width={200} height={200} priority={item.id < 4 ? true : false }/>
               </div>
               <div>
                 <h1 className="text-[#6941C6]">{item.category}</h1>
@@ -129,7 +129,6 @@ function Blog() {
                   <ArrowOutwardIcon/>
                 </div>
                 <p className="text-[#667085]">{item.desc}</p>
-
               </div>
             </div>
             )}

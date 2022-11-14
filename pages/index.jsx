@@ -56,7 +56,7 @@ export default function Home() {
                 />
               </div>
               <h1 className="text-lg font-bold">NFT Art Illustration</h1>
-              <p className="text-xs">
+              <p className="text-xs leading-loose">
                 Bored Ape NFT becoming a trend in recent days. We&apos;ve been
                 working with NFT creators for the past 2 years and this is
                 something that we&apos;re good at.
@@ -72,7 +72,7 @@ export default function Home() {
                 />
               </div>
               <h1 className="text-lg font-bold">NFT Art Illustration</h1>
-              <p className="text-xs">
+              <p className="text-xs leading-loose">
                 Bored Ape NFT becoming a trend in recent days. We&apos;ve been
                 working with NFT creators for the past 2 years and this is
                 something that we&apos;re good at.
@@ -90,7 +90,7 @@ export default function Home() {
               <h1 className="text-lg font-bold">
                 T-Shirt & Merch Illustration
               </h1>
-              <p className="text-xs">
+              <p className="text-xs leading-loose">
                 Illustration can be applied to a t-shirt and merchandise. we can
                 help you create an outstanding illustration for your clothing
                 brand, band, etc.
@@ -106,7 +106,7 @@ export default function Home() {
                 />
               </div>
               <h1 className="text-lg font-bold">Anime Illustration</h1>
-              <p className="text-xs">
+              <p className="text-xs leading-loose">
                 Anime is one of a kind of illustration style. The influence of
                 Japanese culture and cartoon characters, it makes your character
                 alive.
@@ -124,7 +124,7 @@ export default function Home() {
               <h1 className="text-lg font-bold">
                 Banner, Brochure, and User Interface Design
               </h1>
-              <p className="text-xs">
+              <p className="text-xs leading-loose">
                 Designing things can be very difficult for some people,
                 we&apos;re helping with graphic design works for your needs
               </p>
@@ -141,7 +141,7 @@ export default function Home() {
               <h1 className="text-lg font-bold">
                 Presentation and Infographic Design
               </h1>
-              <p className="text-xs">
+              <p className="text-xs leading-loose">
                 Presentation and infographic design is something that we are
                 good at. We help small and big company desigining their deck
               </p>
@@ -228,9 +228,9 @@ export default function Home() {
             }}
             className="grid grid-cols-1 lg:grid-cols-3 gap-5 w-4/5 h-[1200px] lg:h-[400px]  mx-auto items-center"
           >
-            <div className="bg-white mx-auto shadow-2xl space-y-2 p-4 w-full h-4/5">
+            <div className="bg-white mx-auto shadow-2xl space-y-2 p-4 w-full h-4/5 flex flex-col justify-evenly">
               <ReactStars count={5} value={5} size={24} edit={false} />
-              <p>
+              <p className="text-xs leading-loose">
                 Absolutely SENSATIONAL. She understood the brief, asked
                 clarifying questions, set a reasonable timeline then
                 over-delivered brilliantly. I am 100% comfortable recommending
@@ -251,9 +251,9 @@ export default function Home() {
                 </div>
               </div>
             </div>{" "}
-            <div className="bg-white mx-auto shadow-2xl space-y-2 p-4 w-full h-4/5">
+            <div className="bg-white mx-auto shadow-2xl space-y-2 p-4 w-full h-4/5 flex flex-col justify-evenly">
               <ReactStars count={5} value={5} size={24} edit={false} />
-              <p>
+              <p className="text-xs leading-loose">
                 An extremely talented graphics designer who hand draws all their
                 designs! Very impressive and will make any changes you might
                 need. Exceptional communication skills and aims to deliver!{" "}
@@ -273,9 +273,9 @@ export default function Home() {
                 </div>
               </div>
             </div>{" "}
-            <div className="bg-white mx-auto shadow-2xl space-y-2 p-4 w-full h-4/5">
+            <div className="bg-white mx-auto shadow-2xl space-y-2 p-4 w-full h-4/5 flex flex-col justify-evenly">
               <ReactStars count={5} value={5} size={24} edit={false} />
-              <p>
+              <p className="text-xs leading-loose">
                 Raon Studio was a wonderful asset to our project. She is not
                 only very talented, but she listens to your needs and executes
                 your vision rather quickly. She was always available to make the
@@ -298,7 +298,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="flex flex-col items-center text-center lg:text-left lg:flex-row justify-center mt-24 gap-x-12">
+        <section className="flex flex-col items-center text-center lg:text-left lg:flex-row justify-center mt-24 gap-x-20">
           <div className="w-full lg:w-1/2 flex kg:flex-row justify-end">
             <Image
               src="/static/home/home-2.png"

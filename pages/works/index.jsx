@@ -36,22 +36,22 @@ function Works() {
         </section>
         <section className="my-12">
           <div className="md:flex hidden w-4/5 flex-col md:flex-row justify-center space-x-2   mx-auto">
-            <button className="bg-white border-2 border-[#EE7526] rounded-full px-2 py-1 text-[#EE7526]">
+            <button className="bg-white border-2 border-[#EE7526] rounded-full px-2 py-1 text-[#EE7526] text-xs">
               NFT ART
             </button>
-            <button className="bg-white border-2 border-[#EE7526] rounded-full px-2 py-1 text-[#EE7526]">
+            <button className="bg-white border-2 border-[#EE7526] rounded-full px-2 py-1 text-[#EE7526] text-xs">
               MASCOT & CARTOON
             </button>
-            <button className="bg-white border-2 border-[#EE7526] rounded-full px-2 py-1 text-[#EE7526]">
+            <button className="bg-white border-2 border-[#EE7526] rounded-full px-2 py-1 text-[#EE7526] text-xs">
               T-SHIRT & MERCH
             </button>
-            <button className="bg-white border-2 border-[#EE7526] rounded-full px-2 py-1 text-[#EE7526]">
+            <button className="bg-white border-2 border-[#EE7526] rounded-full px-2 py-1 text-[#EE7526] text-xs">
               ANIME
             </button>
-            <button className="bg-white border-2 border-[#EE7526] rounded-full px-2 py-1 text-[#EE7526]">
+            <button className="bg-white border-2 border-[#EE7526] rounded-full px-2 py-1 text-[#EE7526] text-xs">
               GRAPHIC
             </button>
-            <button className="bg-white border-2 border-[#EE7526] rounded-full px-2 py-1 text-[#EE7526]">
+            <button className="bg-white border-2 border-[#EE7526] rounded-full px-2 py-1 text-[#EE7526] text-xs">
               PRESENTATION
             </button>
           </div>
@@ -78,12 +78,12 @@ function Works() {
               }}
               classes="absolute"
             >
-              <MenuItem onClick={handleClose}><p className="text-[#EE7526]">NFT ART</p></MenuItem>
-              <MenuItem onClick={handleClose}><p className="text-[#EE7526]">MASCOT & CARTOON</p></MenuItem>
-              <MenuItem onClick={handleClose}><p className="text-[#EE7526]">T-SHIRT & MERCH</p></MenuItem>
-              <MenuItem onClick={handleClose}><p className="text-[#EE7526]">ANIME</p></MenuItem>
-              <MenuItem onClick={handleClose}><p className="text-[#EE7526]">GRAPHIC</p></MenuItem>
-              <MenuItem onClick={handleClose}><p className="text-[#EE7526]">PRESENTATION</p></MenuItem>
+              <MenuItem onClick={handleClose}><p className="text-[#EE7526] text-xs">NFT ART</p></MenuItem>
+              <MenuItem onClick={handleClose}><p className="text-[#EE7526] text-xs">MASCOT & CARTOON</p></MenuItem>
+              <MenuItem onClick={handleClose}><p className="text-[#EE7526] text-xs">T-SHIRT & MERCH</p></MenuItem>
+              <MenuItem onClick={handleClose}><p className="text-[#EE7526] text-xs">ANIME</p></MenuItem>
+              <MenuItem onClick={handleClose}><p className="text-[#EE7526] text-xs">GRAPHIC</p></MenuItem>
+              <MenuItem onClick={handleClose}><p className="text-[#EE7526] text-xs">PRESENTATION</p></MenuItem>
             </Menu>
           </div>
           <div className="w-full lg:w-3/4 grid-cols-2 grid md:grid-cols-4 gap-y-1 mx-auto p-4 lg:p-16">

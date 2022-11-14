@@ -10,7 +10,7 @@ function Blog() {
       id: 1,
       category: "Design",
       title: "lorem",
-      desc: "lorem ipsum",
+      desc: "How do you create compelling presentations that wow your colleagues and impress your managers?",
       author: "loremita",
       createdAt: "kapan coba yah bingung",
       src: "/static/blog/placeholder (1).png"
@@ -19,7 +19,7 @@ function Blog() {
       id: 2,
       category: "Design",
       title: "lorem",
-      desc: "lorem ipsum",
+      desc: "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.",
       author: "loremita",
       createdAt: "kapan coba yah bingung",
       src: "/static/blog/placeholder (2).png"
@@ -28,7 +28,7 @@ function Blog() {
       id: 3,
       category: "Design",
       title: "lorem",
-      desc: "lorem ipsum",
+      desc: "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
       author: "loremita",
       createdAt: "kapan coba yah bingung",
       src: "/static/blog/placeholder (3).png"
@@ -37,7 +37,7 @@ function Blog() {
       id: 4,
       category: "Design",
       title: "lorem",
-      desc: "lorem ipsum",
+      desc: "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
       author: "loremita",
       createdAt: "kapan coba yah bingung",
       src: "/static/blog/placeholder (4).png"
@@ -46,7 +46,7 @@ function Blog() {
       id: 5,
       category: "Design",
       title: "lorem",
-      desc: "lorem ipsum",
+      desc: "Mental models are simple expressions of complex processes or relationships.",
       author: "loremita",
       createdAt: "kapan coba yah bingung",
       src: "/static/blog/placeholder (5).png"
@@ -55,7 +55,7 @@ function Blog() {
       id: 6,
       category: "Design",
       title: "lorem",
-      desc: "lorem ipsum",
+      desc: "Starting a community doesn’t need to be complicated, but how do you get started?",
       author: "loremita",
       createdAt: "kapan coba yah bingung",
       src: "/static/blog/placeholder (6).png"
@@ -64,7 +64,7 @@ function Blog() {
       id: 7,
       category: "Design",
       title: "lorem",
-      desc: "lorem ipsum",
+      desc: "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
       author: "loremita",
       createdAt: "kapan coba yah bingung",
       src: "/static/blog/placeholder (7).png"
@@ -73,7 +73,7 @@ function Blog() {
       id: 8,
       category: "Design",
       title: "lorem",
-      desc: "lorem ipsum",
+      desc: "Collaboration can make our teams stronger, and our individual designs better.",
       author: "loremita",
       createdAt: "kapan coba yah bingung",
       src: "/static/blog/placeholder (8).png"
@@ -82,7 +82,7 @@ function Blog() {
       id: 9,
       category: "Design",
       title: "lorem",
-      desc: "lorem ipsum",
+      desc: "JavaScript frameworks make development easy with extensive features and functionalities.",
       author: "loremita",
       createdAt: "kapan coba yah bingung",
       src: "/static/blog/placeholder (9).png"
@@ -108,7 +108,7 @@ function Blog() {
           </p>
         </section>
         <section className="my-12">
-          <div className="flex flex-row justify-left items-center border border-gray-500 rounded-lg mx-auto w-1/4 p-2">
+          <div className="my-16 flex flex-row justify-left items-center border border-gray-500 rounded-lg mx-auto w-2/4 lg:w-1/4 p-2">
             <SearchIcon className="text-gray-500" />
             <input
               placeholder="Search"
@@ -118,17 +118,17 @@ function Blog() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-4 gap-y-8 w-3/4 mx-auto">
             {blogDummies.map((item)=> 
-            <div className="px-8 py-4 shadow-2xl flex flex-col" key={item.id}>
-              <div className="mx-auto">
-              <Image alt="" src={item.src} width={200} height={200} priority={item.id < 4 ? true : false }/>
+            <div className="p-4 shadow-2xl flex flex-col" key={item.id}>
+              <div className="mx-auto p-4">
+              <Image alt="" src={item.src} width={400} height={320} priority={item.id < 4 ? true : false }/>
               </div>
               <div>
-                <h1 className="text-[#6941C6]">{item.category}</h1>
-                <div className="flex flex-row justify-between hover:bg-gray-100 hover:font-semibold transition duration-200 p-2">
+                <h1 className="text-[#6941C6] px-4">{item.category}</h1>
+                <div className="px-4 flex flex-row justify-between hover:bg-gray-100 hover:font-semibold transition duration-200">
                 <p>{item.title} {item.id}</p>
                   <ArrowOutwardIcon/>
                 </div>
-                <p className="text-[#667085]">{item.desc}</p>
+                <p className="text-[#667085] px-4">{item.desc}</p>
               </div>
             </div>
             )}

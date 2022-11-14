@@ -23,7 +23,7 @@ function Contact() {
         <link rel="icon" href="/logos/raon-logo.png" />
       </Head>
       <Wrapper>
-        <div className="flex flex-col p-16 lg:flex-row justify-between gap-y-10 gap-x-20">
+        <div className="flex flex-col p-8 lg:p-16 lg:flex-row justify-between gap-y-10 gap-x-20">
           <div className="w-full md:w-1/2 md:max-w-full nunito">
             <div className="p-6 ">
               <form method="POST" action="https://herotofu.com/start">
@@ -36,7 +36,7 @@ function Contact() {
             block
             w-full
             mt-1
-            border-2
+            border
             border-[#EE7526]
             shadow-sm
             p-2
@@ -53,7 +53,7 @@ function Contact() {
             block
             w-full
             mt-1
-            border-2
+            border
             border-[#EE7526]
             shadow-sm
             p-2
@@ -67,7 +67,7 @@ function Contact() {
                   <div
                     className="
                     bg-white p-2           
-                      border-2
+                      border
                     border-[#EE7526]"
                   >
                     <PhoneInput
@@ -85,7 +85,7 @@ function Contact() {
             block
             w-full
             mt-1
-            border-2
+            border
             border-[#EE7526]
             shadow-sm
             p-2
@@ -97,30 +97,30 @@ function Contact() {
                 <label className="block mb-6">
                   <span className="">Services</span>
                 </label>
-                <ul className="grid grid-cols-2 ">
+                <ul className="grid grid-cols-2 gap-4">
                   <li className="space-x-2">
                     <input type="checkbox" className='outline-amber-600 outline-1'/>
-                    <label>Mascot Design</label>
+                    <label className='text-xs'>Mascot Design</label>
                   </li>
                   <li className="space-x-2">
                     <input type="checkbox" className='outline-amber-600 outline-1' />
-                    <label>T-Shirt and Merch</label>
+                    <label className='text-xs'>T-Shirt and Merch</label>
                   </li>
                   <li className="space-x-2">
                     <input type="checkbox" className='outline-amber-600 outline-1' />
-                    <label>Chibi Kawaii</label>
+                    <label className='text-xs'>Chibi Kawaii</label>
                   </li>
                   <li className="space-x-2">
                     <input type="checkbox" className='outline-amber-600 outline-1' />
-                    <label>Cartoon and Comic</label>
+                    <label className='text-xs'>Cartoon and Comic</label>
                   </li>
                   <li className="space-x-2">
                     <input type="checkbox" className='outline-amber-600 outline-1' />
-                    <label>Storybook</label>
+                    <label className='text-xs'>Storybook</label>
                   </li>
                   <li className="space-x-2">
                     <input type="checkbox" className='outline-amber-600 outline-1' />
-                    <label>Other</label>
+                    <label className='text-xs'>Other</label>
                   </li>
                 </ul>
                 <div class="my-6">
@@ -140,16 +140,8 @@ function Contact() {
               </div>
             </div>
           </div>
-          <section className="w-1/2">
-            <div className="space-y-4">
-              <h1 className="text-center text-4xl font-bold">
-                Frequently Asked Questions
-              </h1>
-              <p className="text-center text-gray-600 w-3/4 mx-auto">
-                Everything you need to know about the service and products.
-              </p>
-            </div>
-            <div className="w-3/4 mx-auto my-12">
+          <section className="w-full lg:w-1/2">
+            <div className=" w-full lg:w-3/4 mx-auto my-10">
               <Accordion
                 expanded={expanded === "panel1"}
                 onChange={handleChange("panel1")}
@@ -166,19 +158,12 @@ function Contact() {
                   id="panel1a-header"
                 >
                   <p className="font-bold">
-                    HOW MANY REVISIONS DO YOU OFFER IN YOUR DESIGN PROCESS?
+                  Please, talk to me.
                   </p>
                 </AccordionSummary>
                 <AccordionDetails>
                   <p className="w-4/5 text-gray-500">
-                    {`I offer a premium custom design service and I guarantee full
-                  satisfaction. Revisions will be the necessary in order to
-                  achieve the objective set. <br /> My design process is
-                  sequential so we’ll do the work in stages – briefing,
-                  conceptualisation, sketch and final design – and we’ll make
-                  all the revisions you need (within reason) but when one stage
-                  is approved we can’t turn back again. If it happens I may
-                  charge a fee.`}
+                  Let me know who you are and how can I help you.
                   </p>
                 </AccordionDetails>
               </Accordion>{" "}
@@ -198,19 +183,12 @@ function Contact() {
                   id="panel1a-header"
                 >
                   <p className="font-bold">
-                    WILL YOU REFUND MY MONEY IF I DON&apos;T LIKE YOUR WORK?
+                  Looking for cheap Design?
                   </p>
                 </AccordionSummary>
                 <AccordionDetails>
                   <p className="w-4/5 text-gray-500">
-                    {`I offer a premium custom design service and I guarantee full
-                  satisfaction. Revisions will be the necessary in order to
-                  achieve the objective set. <br /> My design process is
-                  sequential so we’ll do the work in stages – briefing,
-                  conceptualisation, sketch and final design – and we’ll make
-                  all the revisions you need (within reason) but when one stage
-                  is approved we can’t turn back again. If it happens I may
-                  charge a fee.`}
+                  Creating custom graphics is time consuming and requires a lot of work, so I charge accordingly.
                   </p>
                 </AccordionDetails>
               </Accordion>{" "}
@@ -230,19 +208,12 @@ function Contact() {
                   id="panel1a-header"
                 >
                   <p className="font-bold">
-                    WHO OWNS THE COPYRIGHT OF MY DESIGNS?
+                  Looking for quick design?
                   </p>
                 </AccordionSummary>
                 <AccordionDetails>
                   <p className="w-4/5 text-gray-500">
-                    {`I offer a premium custom design service and I guarantee full
-                  satisfaction. Revisions will be the necessary in order to
-                  achieve the objective set. <br /> My design process is
-                  sequential so we’ll do the work in stages – briefing,
-                  conceptualisation, sketch and final design – and we’ll make
-                  all the revisions you need (within reason) but when one stage
-                  is approved we can’t turn back again. If it happens I may
-                  charge a fee.`}
+                  Booking your order a couple of weeks upfront will result in a better price.
                   </p>
                 </AccordionDetails>
               </Accordion>{" "}
@@ -262,19 +233,12 @@ function Contact() {
                   id="panel1a-header"
                 >
                   <p className="font-bold">
-                    CAN YOU KEEP MY DESIGN PROJECT CONFIDENTIAL?
+                  50% payment in advance is required
                   </p>
                 </AccordionSummary>
                 <AccordionDetails>
                   <p className="w-4/5 text-gray-500">
-                    {`I offer a premium custom design service and I guarantee full
-                  satisfaction. Revisions will be the necessary in order to
-                  achieve the objective set. <br /> My design process is
-                  sequential so we’ll do the work in stages – briefing,
-                  conceptualisation, sketch and final design – and we’ll make
-                  all the revisions you need (within reason) but when one stage
-                  is approved we can’t turn back again. If it happens I may
-                  charge a fee.`}
+                  Working for free is the last thing I would like to do in my free time, a down payment helps me to discriminate serious job offers from the rest.
                   </p>
                 </AccordionDetails>
               </Accordion>{" "}
@@ -294,19 +258,12 @@ function Contact() {
                   id="panel1a-header"
                 >
                   <p className="font-bold">
-                    CAN I MAKE MODIFICATIONS TO MY DESIGN?
+                  About confidentiality
                   </p>
                 </AccordionSummary>
                 <AccordionDetails>
                   <p className="w-4/5 text-gray-500">
-                    {`I offer a premium custom design service and I guarantee full
-                  satisfaction. Revisions will be the necessary in order to
-                  achieve the objective set. <br /> My design process is
-                  sequential so we’ll do the work in stages – briefing,
-                  conceptualisation, sketch and final design – and we’ll make
-                  all the revisions you need (within reason) but when one stage
-                  is approved we can’t turn back again. If it happens I may
-                  charge a fee.`}
+                  My portfolio is my marketing tool, otherwise stated I reserve the right to publish any work made by order. Please, contact me to discuss your needs.
                   </p>
                 </AccordionDetails>
               </Accordion>{" "}
@@ -326,69 +283,19 @@ function Contact() {
                   id="panel1a-header"
                 >
                   <p className="font-bold">
-                    WHICH PAYMENT METHODS CAN I USE TO ORDER MY COMPANY
-                    BRANDING?
+                  please have a look to my portfolio
                   </p>
                 </AccordionSummary>
                 <AccordionDetails>
                   <p className="w-4/5 text-gray-500">
-                    {`I offer a premium custom design service and I guarantee full
-                  satisfaction. Revisions will be the necessary in order to
-                  achieve the objective set. <br /> My design process is
-                  sequential so we’ll do the work in stages – briefing,
-                  conceptualisation, sketch and final design – and we’ll make
-                  all the revisions you need (within reason) but when one stage
-                  is approved we can’t turn back again. If it happens I may
-                  charge a fee.`}
-                  </p>
-                </AccordionDetails>
-              </Accordion>
-              <Accordion
-                expanded={expanded === "panel7"}
-                onChange={handleChange("panel7")}
-              >
-                <AccordionSummary
-                  expandIcon={
-                    expanded === "panel7" ? (
-                      <RemoveCircleOutlineIcon className="text-[#EE7526]" />
-                    ) : (
-                      <AddCircleOutlineIcon className="text-[#EE7526]" />
-                    )
-                  }
-                  aria-controls="panel1a-content"
-                  id="panel1a-header"
-                >
-                  <p className="font-bold">
-                    I CAN&apos;T AFFORD YOUR SERVICES... CAN YOU OFFER ME MORE
-                    AFFORDABLE SOLUTIONS?
-                  </p>
-                </AccordionSummary>
-                <AccordionDetails>
-                  <p className="w-4/5 text-gray-500">
-                    {`I offer a premium custom design service and I guarantee full
-                  satisfaction. Revisions will be the necessary in order to
-                  achieve the objective set. <br /> My design process is
-                  sequential so we’ll do the work in stages – briefing,
-                  conceptualisation, sketch and final design – and we’ll make
-                  all the revisions you need (within reason) but when one stage
-                  is approved we can’t turn back again. If it happens I may
-                  charge a fee.`}
+                  Please have a look to my portfolio before requesting a quote and make sure that I’m the right designer for your project.
                   </p>
                 </AccordionDetails>
               </Accordion>
             </div>
-            <div className="flex flex-col space-y-8 my-12">
-              <h1 className="text-center font-semibold text-xl">
-                Still have questions?
-              </h1>
-              <p className="text-center text-gray-500">
-                Can&apos;t find the answer you&apos;re looking for? Please chat
-                to our friendly team.
-              </p>
-              <button className="bg-[#EE7526] mx-auto rounded-full px-4 py-2 text-white">
+              <button className="mt-2 bg-[#EE7526] mx-auto w-full px-4 py-2 text-white">
                 Contact Us
               </button>
-            </div>
           </section>
         </div>
       </Wrapper>

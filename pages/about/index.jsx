@@ -22,7 +22,7 @@ function About() {
         <link rel="icon" href="/logos/raon-logo.png" />
       </Head>
       <Wrapper>
-      <section className="flex lg:flex-row flex-col-reverse justify-center mt-12 gap-y-10 max-w-7xl">
+      <section className="flex lg:flex-row flex-col-reverse justify-center mt-12 gap-y-10  ">
           <div className="lg:w-1/2 w-full lg:space-y-12 space-y-8">
             <h1 className="lg:text-4xl text-xl font-extrabold w-full lg:w-3/4 text-center lg:text-left lg:p-0 p-2">
               Raon Studio does illustration works with heart. We produce only

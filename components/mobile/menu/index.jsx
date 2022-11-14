@@ -40,7 +40,7 @@ export default function MobileMenu() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List className="flex flex-col">
-        {["home", "works","services", "about", "blog","contact"].map((text, index) => (
+        {["home", "works", "about", "blog","contact"].map((text, index) => (
           <ListItem key={index} disablePadding>
             <ListItemButton>
               <Link href={`/${text === 'home' ? '' : text}`} prefetch={false} >

@@ -35,7 +35,7 @@ function Works() {
           </button>
         </section>
         <section className="my-12">
-          <div className="md:flex hidden w-4/5 flex-col md:flex-row justify-center space-x-2 max-w-7xl mx-auto">
+          <div className="md:flex hidden w-4/5 flex-col md:flex-row justify-center space-x-2   mx-auto">
             <button className="bg-white border-2 border-[#EE7526] rounded-full px-2 py-1 text-[#EE7526]">
               NFT ART
             </button>
@@ -55,7 +55,7 @@ function Works() {
               PRESENTATION
             </button>
           </div>
-          <div className="w-4/5 md:hidden flex flex-col md:flex-row justify-center space-x-2 max-w-7xl mx-auto">
+          <div className="w-4/5 md:hidden flex flex-col md:flex-row justify-center space-x-2   mx-auto">
             <Button
               id="basic-button"
               aria-controls={open ? "basic-menu" : undefined}

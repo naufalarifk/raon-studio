@@ -6,14 +6,13 @@ import MobileMenu from "../../mobile/menu";
 function Header() {
     const router = useRouter()
   return (
-    <header className="flex flex-row justify-between py-6 px-12 max-w-7xl">
+    <header className="flex flex-row justify-between py-6 px-12  ">
         <div className="items-center">
       <Image src={RaonLogo} height={32} width={64} alt="" />
       </div>
-      <ul className="lg:flex hidden flex-row justify-evenly space-x-6 text-[#424242] text-base items-center font-semibold">
+      <ul className="lg:flex hidden flex-row justify-evenly space-x-6 text-[#424242] text-xs items-center font-semibold">
         <li><Link href="/"><a className={router.pathname == "/" ? "text-amber-400": "text-[#424242]"}>HOME</a></Link></li>
         <li><Link href="/works"><a className={router.pathname == "/works" ? "text-amber-400": "text-[#424242]"}>WORKS</a></Link></li>
-        <li><Link href="/services"><a className={router.pathname == "/services" ? "text-amber-400": "text-[#424242]"}>SERVICES</a></Link></li>
         <li><Link href="/about"><a className={router.pathname == "/about" ? "text-amber-400": "text-[#424242]"}>ABOUT</a></Link></li>
         <li><Link href="/blog"><a className={router.pathname == "/blog" ? "text-amber-400": "text-[#424242]"}>BLOG</a></Link></li>
         <li><Link href="/contact"><a className={router.pathname == "/contact" ? "text-amber-400": "text-[#424242]"}>CONTACT</a></Link></li>

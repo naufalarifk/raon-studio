@@ -14,9 +14,9 @@ function Footer() {
           <input
             type="text"
             placeholder="enter your email here"
-            className="rounded-full border-2 border-[#EE7526] focus:border-[#EE7526] px-2 py-1 input-middle w-4/5"
+            className="rounded-full border-2 border-[#EE7526] focus:border-[#EE7526] px-2 py-1 input-middle w-3/5 lg:w-4/5"
           />
-          <button className="bg-[#EE7526] rounded-full px-3 py-1 text-white lg:w-1/5">
+          <button className="bg-[#EE7526] rounded-full px-2 lg:px-3 py-1 text-white w-auto lg:w-1/5">
             Contact Us
           </button>
         </form>
@@ -27,7 +27,7 @@ function Footer() {
           <h1 className="font-bold">
             About <br /> Raon Studio
           </h1>
-          <p className="text-xs">
+          <p className="text-xs w-3/4">
             We are illustration company who have NFT Art, mascot and cartoon
             character, t-shirt and merch, and anime illustration services. We
             also do graphic and presentation design for life.

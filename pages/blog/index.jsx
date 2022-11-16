@@ -128,7 +128,7 @@ function Blog() {
                 <p>{item.title} {item.id}</p>
                   <ArrowOutwardIcon/>
                 </div>
-                <p className="text-[#667085] px-4">{item.desc}</p>
+                <p className="text-[#667085] px-4 text-xs">{item.desc}</p>
               </div>
             </div>
             )}
